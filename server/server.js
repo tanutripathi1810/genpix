@@ -10,15 +10,7 @@ const PORT = process.env.PORT || 4000;
 const app = express()
 
 app.use(express.json());
-app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'http://localhost:3000', 
-    'https://genpix-6ys4.vercel.app',
-    'https://*.vercel.app'
-  ],
-  credentials: true
-}));
+app.use(cors());
 await connectDB();
 
 app.use('/api/user',userRouter);

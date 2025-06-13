@@ -6,7 +6,7 @@ import BuyCredit from './pages/BuyCredit'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Login from './components/Login'
-import { AppContext } from './context/AppCOntext'
+import { AppContext } from './context/AppContext'
 import { ToastContainer, toast } from 'react-toastify';
 
 

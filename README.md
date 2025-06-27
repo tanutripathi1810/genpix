@@ -1,6 +1,6 @@
-# GenPix ![GenPix Logo](logo.png)
+![GenPix Logo](client/src/assets/logo.png)
 
-
+# GenPix 
 GenPix is a web-based application for generating images, likely powered by AI or generative models. The project features a modern full-stack JavaScript architecture, making it easy to run locally or deploy to the cloud.
 
 [Live Demo](https://genpix-gules.vercel.app/)
